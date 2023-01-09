@@ -2,8 +2,8 @@
 //обозначающую день недели, и проверяет, является ли этот день выходным.
 
 
-int n = Convert.ToInt32(Console.ReadLine());
-if (n == 6 || n == 7)
+int n = Convert.ToInt32(Console.ReadLine()); // конвертируем строку в число
+if (n == 6 || n == 7)                        // условие если n=6 или n = 7 то..
 Console.WriteLine("да");
 else
 Console.WriteLine("нет");
