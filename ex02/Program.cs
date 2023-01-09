@@ -1,7 +1,7 @@
 ﻿// Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
 string n = Console.ReadLine();
-char[] array = n.ToCharArray();
+char[] array = n.ToCharArray(); //разбивает строку на символы
 
 if (array.Length >= 3)
   Console.WriteLine(array[2]);
